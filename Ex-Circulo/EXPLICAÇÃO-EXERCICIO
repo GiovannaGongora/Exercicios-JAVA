@@ -1,0 +1,37 @@
+Exercício - Cálculo de Círculo em Java
+
+Este programa em Java implementa uma classe Circulo que permite calcular propriedades de um círculo com base no seu raio.
+
+Funcionalidades
+
+>Definir o raio de um círculo (com validação para impedir valores negativos).
+>Calcular e exibir
+>Diâmetro
+>Área
+>Circunferência
+
+O programa recebe um valor de raio do usuário, define esse valor no objeto Circulo e exibe os cálculos na tela.
+🛠️ Estrutura do Código
+
+🔹 Classe Circulo:
+
+    Possui um atributo privado raio
+    Métodos para definir e obter o raio (setRaio() e getRaio())
+    Métodos para calcular diâmetro, área e circunferência
+    Método exibeDados() para exibir os resultados
+
+🔹 Classe MainCirculo:
+
+    Solicita o raio ao usuário
+    Cria um objeto Circulo e define o raio
+    Exibe os resultados dos cálculos
+
+Como Executar(no PowerShell)
+
+Compile o programa:
+
+javac Circulo.java MainCirculo.java
+
+Execute:
+
+java MainCirculo
